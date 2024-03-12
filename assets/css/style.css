@@ -1,0 +1,275 @@
+/* Font for initials */
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+/* Font for words */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Font for Home text, About, and Contact */
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Start Home Section */
+.quote {
+    margin-top: 20%;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    color: black;
+    border-block-end-width: 10px;
+    border-block-end-style: solid;
+    background-color: pink;    
+}
+body {
+    background: url('../images/circuit.jpg');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgba(181, 7, 29, 0.25);
+}
+html {
+    scroll-behavior: smooth;
+}
+h1 {
+    padding-top: 2.5rem;
+    text-align: center;
+}
+a.initals {
+font-family: "Kode Mono", monospace;
+font-style: normal;
+font-size: 2rem;
+font-weight: 800;
+}
+#home, #about, #contact {
+    height: 814px;
+    padding-top: 2%;
+}
+.top {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    background: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 85%;
+    padding-top: .3rem;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(123, 123, 119);
+}
+
+.header::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -70%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(60deg, transparent, black, transparent);
+}
+
+.navbar a {
+    font-family: "Playfair Display", serif;
+    font-size: 1.1rem;
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+    
+}
+#check {
+    display: none;
+}
+.icons {
+    font-size: 2.1rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 10%;
+}
+@media (max-width:750px) {
+    .icons {
+        display: inline-flex;
+    }
+    #check:checked~.icons #menu-bt-icon {
+        display: none;
+    }
+    #check:checked~.icons #close-icon {
+        display: block;
+    }
+    .icons #close-icon {
+        display: none;
+    }
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgb(123, 123, 119);
+        box-shadow: 0.5rem .8rem rgba(0, 0, 0, 0.4);
+        transition: .3s ease;
+        overflow: hidden;
+    }
+    #check:checked~.navbar {
+        height: 10.2rem;
+
+    }
+    .navbar a {
+        display: block;
+        font-size: 1.2rem;
+        margin-right: 0px;
+        margin-bottom: 1rem;
+        text-align: center;
+        transition: .3s ease;
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    #check:checked~.navbar a{
+        transform: translateY(0);
+        transition-delay: calc(.25s * var(--i));
+        opacity: 1;
+    }
+} 
+/* End of Home Page */
+
+/* Start of project section */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_container {
+    padding-block: 3rem;
+}
+.card_content {
+    margin-inline: 1.5rem;
+    border-radius: 1.2rem;
+    overflow: hidden;
+}
+.card_article {
+    width: 300px;
+    border-radius: 1.2rem;
+    overflow: hidden;
+}
+.card_image {
+    text-align: center;
+    background-color: white;
+    margin-bottom: -.45rem;
+    border-radius: 1rem;
+
+}
+.card_data {
+    background: linear-gradient(160deg, rgba(2,0,36,1) 0%, rgba(196,198,203,1) 35%);
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+}
+.card_img {
+    margin: 0 auto;
+}
+.card_description {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+.card_button {
+    display: inline-block;
+    background:rgba(181, 7, 29, 0.25);
+    padding-top: 6px;
+    padding-bottom: 13px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+    border-radius: .25rem;
+    font-weight: 400;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+.bxs-left-arrow:before,
+.bxs-right-arrow:before {
+    color:rgba(181, 7, 29, 0.25);
+}
+.card_container.swiper {
+    z-index: -1;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+
+}
+.swiper-button-prev,
+.swiper-button-next {
+    width: initial;
+    height: initial;
+    font-size: 2rem;
+    display: none;
+}
+.swiper-button-prev {
+    left: 0;
+}
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main {
+    background-color: rgba(181, 7, 29, 0.25);
+}
+/* End project section */
+
+/* Start Contact Section */
+.input-box {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textarea-field.field {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.field .item {
+    width: 30%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid rgba(206, 8, 110, 0.8);
+    outline: none;
+    border-radius: 6px;
+    color: white;
+    margin: 12px 0;
+}
+.input-field.field{
+    width: 25%;
+    margin-left: 15%;
+    padding-bottom: 4px;
+}
+
+/* End Contact Section */

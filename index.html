@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carisa Saenz-Videtto</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- import icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- remixicon import -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Swiper import -->
+  <link href="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <!-- Logo/initals -->
+    <a class="initals">CSV</a>
+    <input type="checkbox" id="check">
+    <!-- Logos for mobile view -->
+    <label for="check" class="icons">
+      <i class='bx bx-menu' id="menu-bt-icon"></i>
+      <i class='bx bx-x' id="close-icon"></i>
+    </label>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#home" style="--i:0;">Home</a>
+      <a href="#projects" style="--i:1;">Projects</a>
+      <a href="#about" style="--i:2;">About</a>
+      <a href="#contact_title" style="--i:3;">Contact</a>
+    </nav>
+  </header>
+<!-- anchor links to certain location -->
+  <section id="home">
+    <p class="quote">"The best coders are those who understand that learning is a lifelong journey, not a destination." - anonymous</p>
+  </section>
+
+  <section id="projects">
+    <h1>Projects</h1>
+    <section class="container">
+      <div class="card_container swiper">
+        <div class="card_content">
+          <div class="swiper-wrapper">
+            <article class="card_article swiper-slide">
+              <div class="card_image">
+                <img src="./assets/images/python-logo-60.png" alt="pythonlogo" class="card_img">
+                <div class="card_shadow"></div>
+              </div>
+              <div class="card_data">
+                <h3 class="card_name">Xayah & Rakan</h3>
+                <p class="card_description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo neque nostrum omnis laudantium odio. Deserunt maxime blanditiis tempore, maiores corrupti unde accusamus doloremque repudiandae fugiat libero ipsam soluta. Consequatur, nemo.
+                </p>
+                <a href="" class="card_button">Demo</a>
+                <a href="" class="card_button">Repo</a>
+              </div>
+            </article>
+            <article class="card_article swiper-slide">
+              <div class="card_image">
+                <img src="./assets/images/python-logo-60.png" alt="pythonlogo" class="card_img">
+                <div class="card_shadow"></div>
+              </div>
+              <div class="card_data">
+                <h3 class="card_name">Title</h3>
+                <p class="card_description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo neque nostrum omnis laudantium odio. Deserunt maxime blanditiis tempore, maiores corrupti unde accusamus doloremque repudiandae fugiat libero ipsam soluta. Consequatur, nemo.
+                </p>
+                <a href="" class="card_button">Demo</a>
+                <a href="" class="card_button">Repo</a>
+              </div>
+            </article>
+            <article class="card_article swiper-slide">
+              <div class="card_image">
+                <img src="./assets/images/python-logo-60.png" alt="pythonlogo" class="card_img">
+                <div class="card_shadow"></div>
+              </div>
+              <div class="card_data">
+                <h3 class="card_name">Title</h3>
+                <p class="card_description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo neque nostrum omnis laudantium odio. Deserunt maxime blanditiis tempore, maiores corrupti unde accusamus doloremque repudiandae fugiat libero ipsam soluta. Consequatur, nemo.
+                </p>
+                <a href="" class="card_button">Demo</a>
+                <a href="" class="card_button">Repo</a>
+              </div>
+            </article>
+             
+          </div>
+          <div class="swiper-button-prev">
+            <i class='bx bxs-left-arrow bx-flashing bx-lg' ></i>
+          </div>
+          <div class="swiper-button-next">
+            <i class='bx bxs-right-arrow bx-flashing bx-lg' ></i>          </div>
+          </div>
+          <div class="swiper-pagination">         
+          </div>
+        </div>       
+      </div>
+    </section>
+  </section>
+
+  <section id="about">
+    <h1>About</h1>
+  </section>
+
+  <section id="contact_title">
+    <h1>Contact</h1>
+  </section>
+  <section id="contact">
+    <form action="#">
+      <div class="input-box">
+        <div class="input-field field">
+          <input type="text" placeholder="Full Name" id="name"
+            class="item" autocomplete="off">
+        </div>
+      </div>
+      <div class="input-box">
+        <div class="input-field field">
+          <input type="text" placeholder="Email Address" id="email"
+            class="item" autocomplete="off">
+        </div>
+      </div>
+      <div class="input-box">
+        <div class="input-field field">
+          <input type="text" placeholder="Phone Number" id="phone"
+            class="item" autocomplete="off">
+        </div>
+      </div>
+      <div class="input-box">
+        <div class="input-field field">
+          <input type="text" placeholder="Subject" id="subject"
+            class="item" autocomplete="off">
+        </div>
+      </div>
+      <div class="textarea-field field">
+        <textarea name="" id="message" cols="25" rows="10" placeholder="Your Message"
+        class="item" autocomplete="off">
+        </textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  </section>
+
+  <!-- anchor link to go to the top of the page -->
+  <a class="top" href="#home">
+    <i class='bx bx-chevron-up bx-flashing bx-lg' ></i>
+    </a>
+    <!-- import swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.js"></script>
+    <!-- import js file -->
+    <script type="text/javascript" src="./assets/javascript/main.js"></script>
+    
+
+</body>
+</html>
