@@ -107,8 +107,62 @@
   </main>
 
   <footer class="footer footer-center p-4 bg-base-300 text-base-content">
-    <div>
-      <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+    <div class="text-center">
+      <div class="flex flex-wrap justify-center gap-8">
+        <div class="flex flex-col gap-2">
+          <h6 class="footer-title">Navigation</h6>
+          <a href="/" class="link link-hover">Home</a>
+          <a href="/about" class="link link-hover">About</a>
+          <a href="/contact" class="link link-hover">Contact</a>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h6 class="footer-title">Personal</h6>
+          <a href="/personal/projects" class="link link-hover">Projects</a>
+          <a href="/personal/blog" class="link link-hover">Blog</a>
+          <a href="/personal/dev-help" class="link link-hover">Dev Help</a>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h6 class="footer-title">Professional</h6>
+          <a href="/professional/projects" class="link link-hover">Projects</a
+          >
+          <a href="/professional/dev-docs" class="link link-hover">Dev Docs</a
+          >
+        </div>
+        <div class="flex flex-col gap-2">
+          <h6 class="footer-title">Legal</h6>
+          <a href="/legal" class="link link-hover">License</a>
+        </div>
+        <div>
+          <h6 class="footer-title">Social</h6>
+          <a
+            href="https://www.tumblr.com/blog/silencewritten"
+            class="link link-hover"
+          >
+          <i class='bx bxl-tumblr bx-sm'></i></a
+          >
+          <a
+            href="https://www.linkedin.com/in/carisa-saenz-videtto-669929173/"
+            class="link link-hover"
+          >
+          <i class='bx bxl-linkedin bx-sm'></i></a
+          >
+          <a
+            href="https://beyondbackend.hashnode.dev/"
+            class="link link-hover"
+          >
+          <i class='bx bx-book-open bx-sm'></i></a
+          >
+          <a
+            href="https://github.com/FizzyMo"
+            class="link link-hover"
+          >
+          <i class='bx bxl-github bx-sm'></i></a
+          >
+        </div>
+      </div>
+      <div>
+        <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+      </div>
     </div>
   </footer>
 </div>

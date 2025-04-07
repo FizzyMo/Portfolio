@@ -33,10 +33,10 @@
         </figure>
         <div class="card-body">
           <h2 class="card-title font-bold">Dataset Generation</h2>
-          <p>A brief description of the project and the technologies used.</p>
+          <p>Provides a Node.js script to fetch data from the News API, format it, and export it to a text file.</p>
           <div class="card-actions justify-end">
             <a
-              href="https://github.com/FizzyMo/BeyondBackend.Large-Dataset-Generation"
+              href="https://github.com/FizzyMo/BeyondBackend.Large-Dataset-Generation" target="_blank"
               class="btn btn-primary btn-sm">View Details</a
             >
           </div>
@@ -57,10 +57,10 @@
       </figure>
       <div class="card-body">
         <h2 class="card-title font-bold">Data Analysis and Interpretation</h2>
-        <p>A brief description of the project and the technologies used.</p>
+        <p>Uses R to analyze and interpret news article data, focusing on two main components: data analysis and visualization.</p>
         <div class="card-actions justify-end">
           <a
-            href="https://github.com/FizzyMo/BeyondBackend.Data-Analysis-and-Interpretation"
+            href="https://github.com/FizzyMo/BeyondBackend.Data-Analysis-and-Interpretation" target="_blank"
             class="btn btn-primary btn-sm">View Details</a
           >
         </div>
@@ -83,10 +83,10 @@
         <h2 class="card-title font-bold">
           League of Legends Interactive Narrative
         </h2>
-        <p>A brief description of the project and the technologies used.</p>
+        <p>A text-based adventure game built in Python, demonstrating storytelling and interactive narrative design.</p>
         <div class="card-actions justify-end">
           <a
-            href="https://github.com/FizzyMo/BeyondBackend.Python-Adventure"
+            href="https://github.com/FizzyMo/BeyondBackend.Python-Adventure" target="_blank"
             class="btn btn-primary btn-sm">View Details</a
           >
         </div>

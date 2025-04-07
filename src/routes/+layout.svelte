@@ -221,7 +221,7 @@
           </div>
           <div class="flex flex-col gap-2">
             <h6 class="footer-title">Legal</h6>
-            <a href="/terms" class="link link-hover">License</a>
+            <a href="/legal" class="link link-hover">License</a>
           </div>
           <div>
             <h6 class="footer-title">Social</h6>
@@ -229,25 +229,25 @@
               href="https://www.tumblr.com/blog/silencewritten"
               class="link link-hover"
             >
-            <i class='bx bxl-tumblr bx-xs'></i></a
+            <i class='bx bxl-tumblr bx-sm'></i></a
             >
             <a
               href="https://www.linkedin.com/in/carisa-saenz-videtto-669929173/"
               class="link link-hover"
             >
-            <i class='bx bxl-linkedin bx-xs'></i></a
+            <i class='bx bxl-linkedin bx-sm'></i></a
             >
             <a
               href="https://beyondbackend.hashnode.dev/"
               class="link link-hover"
             >
-            <i class='bx bx-book-open bx-xs'></i></a
+            <i class='bx bx-book-open bx-sm'></i></a
             >
             <a
               href="https://github.com/FizzyMo"
               class="link link-hover"
             >
-            <i class='bx bxl-github bx-xs'></i></a
+            <i class='bx bxl-github bx-sm'></i></a
             >
           </div>
         </div>

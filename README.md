@@ -1,4 +1,5 @@
 ﻿## Project Structure
+```
 ├── .svelte-kit/            
 ├── src     
 ├── node_modules/   
@@ -47,3 +48,4 @@
 ├── svelte.config.js  
 ├── tailwind.config.js  
 └── vite.config.js
+```
