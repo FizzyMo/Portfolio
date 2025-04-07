@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Radley&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+}
+
+.card figure { /* Target the figure element within the card */
+  aspect-ratio: 3 / 2; /* Maintain the 3:2 aspect ratio (600x400) */
+}
+
+.menu-horizontal > li:hover > ul { /* Show on hover or focus within */
+  display: block; /* Make the submenu visible */
+}
+
+h1 {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(90deg, #00ACFF 0%, #001C82 13%, #FF7475 25%, #19FFFF 38%, #19B5FF 50%, #F84D98 75%, #1962FF 100%);
+  -webkit-background-clip: text; /* For older browsers */
+  background-clip: text;
+  color: transparent;
+}
+
+p {
+  font-family: "Radley", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
